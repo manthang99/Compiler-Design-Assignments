@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_manthang99_Compiler_Design_Assignments_1723222165584-push-trigger-input-set
+  identifier: Build_manthang99_Compiler_Design_Assignments_1723222165584pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_manthang99_Compiler_Design_Assignments_1723222165584
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
